@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../assets/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+.container{
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.container-item{
+    margin-top: 80px;
+    height: 580px;
+    border-radius: 12px;
+    background: #FFFFFF;
+}
+
+.conteudo-item{
+    background: #FFFFFF;
+    margin: 0 auto;
+    width: 300px; 
+    align-items: center;
+}
+
+.conteudo-item h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.conteudo-item p{
+    text-align: center;
+    margin-top: 20px;
+    color: #808080;
+    font-size: 1.125em;
+}
+
+.icone{
+    margin-left: 20px;
+}
+
+.conteudo-musica{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background: #DCDCDC;
+    border-radius: 4px;
+    padding: 10px;
+    gap: 20px;
+}
+
+.conteudo-musica h2{
+    font-size: 1.120em;
+}
+
+.conteudo-musica a{
+    text-decoration: none;
+    color: #0000CD;
+}
+
+.conteudo-musica h2 .preco{
+    display: block;
+    font-size: 0.8em;
+    color: #808080;
+}
+
+.final a{
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+.payment{
+    background: #0000CD;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cancel{
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+}
+
+.payment:hover{
+    background:#00008B;
+}
